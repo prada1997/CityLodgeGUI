@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RentRoomViewController">
+   <children>
+      <DatePicker fx:id="rentDate" layoutX="156.0" layoutY="120.0" />
+      <Label layoutX="41.0" layoutY="124.0" text="Rent Date" />
+      <Label layoutX="41.0" layoutY="185.0" text="Number Of Days" />
+      <Label layoutX="41.0" layoutY="258.0" text="Customer ID" />
+      <TextField fx:id="customerId" layoutX="155.0" layoutY="254.0" prefHeight="25.0" prefWidth="174.0" />
+      <Spinner fx:id="numberOfDays" layoutX="155.0" layoutY="181.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button fx:id="rentRoom" layoutX="155.0" layoutY="311.0" mnemonicParsing="false" onAction="#rentRoom" prefHeight="35.0" prefWidth="88.0" text="Submit" />
+      <Button fx:id="rentRoom1" layoutX="260.0" layoutY="311.0" mnemonicParsing="false" onAction="#rentRoom" prefHeight="35.0" prefWidth="88.0" text="Cancel" />
+      <Label layoutX="120.0" layoutY="45.0" text="Room Details">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
